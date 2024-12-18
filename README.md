@@ -4,6 +4,8 @@ Welcome to the UTU VPN Article Search and Reference Management tutorial reposito
 
 This tutorial provides guidance on accessing articles via UTU VPN and managing references using Mendeley and MS Word.
 
+**Read the tutorial online**: [UTU VPN Article Search and Reference Management](https://vpn-article-search-and-ref-management.netlify.app/)
+
 ## Contents
 
 - **Introduction**: An overview of the tutorial objectives.
