@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 VPN-yhteys | Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 VPN-yhteys | Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 VPN-yhteys | Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Ville Langén" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="artikkelien-haku.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Alkusanat</a></li>
+<li class="chapter" data-level="2" data-path="vpn-yhteys.html"><a href="vpn-yhteys.html"><i class="fa fa-check"></i><b>2</b> VPN-yhteys</a></li>
+<li class="chapter" data-level="3" data-path="artikkelien-haku.html"><a href="artikkelien-haku.html"><i class="fa fa-check"></i><b>3</b> Artikkelien haku</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="artikkelien-haku.html"><a href="artikkelien-haku.html#pubmed"><i class="fa fa-check"></i><b>3.1</b> PubMed</a></li>
+<li class="chapter" data-level="3.2" data-path="artikkelien-haku.html"><a href="artikkelien-haku.html#web-of-science-wos"><i class="fa fa-check"></i><b>3.2</b> Web of Science (WoS)</a></li>
+<li class="chapter" data-level="3.3" data-path="artikkelien-haku.html"><a href="artikkelien-haku.html#google-scholar"><i class="fa fa-check"></i><b>3.3</b> Google Scholar</a></li>
+<li class="chapter" data-level="3.4" data-path="artikkelien-haku.html"><a href="artikkelien-haku.html#utu-volter"><i class="fa fa-check"></i><b>3.4</b> Utu Volter</a></li>
+<li class="chapter" data-level="3.5" data-path="artikkelien-haku.html"><a href="artikkelien-haku.html#suora-googletus"><i class="fa fa-check"></i><b>3.5</b> Suora googletus</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="mendeleyn-käyttö.html"><a href="mendeleyn-käyttö.html"><i class="fa fa-check"></i><b>4</b> Mendeleyn käyttö</a></li>
+<li class="chapter" data-level="5" data-path="wordiin-viitteet.html"><a href="wordiin-viitteet.html"><i class="fa fa-check"></i><b>5</b> Wordiin viitteet</a></li>
+<li class="chapter" data-level="6" data-path="desktop-softat.html"><a href="desktop-softat.html"><i class="fa fa-check"></i><b>6</b> Desktop-softat</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="desktop-softat.html"><a href="desktop-softat.html#mendeleyn-asennus"><i class="fa fa-check"></i><b>6.1</b> Mendeleyn asennus</a></li>
+<li class="chapter" data-level="6.2" data-path="desktop-softat.html"><a href="desktop-softat.html#lisäosa-wordiin"><i class="fa fa-check"></i><b>6.2</b> Lisäosa Wordiin</a></li>
+<li class="chapter" data-level="6.3" data-path="desktop-softat.html"><a href="desktop-softat.html#lisäosan-bugi"><i class="fa fa-check"></i><b>6.3</b> Lisäosan bugi</a></li>
+<li class="chapter" data-level="6.4" data-path="desktop-softat.html"><a href="desktop-softat.html#lisäosan-käyttö"><i class="fa fa-check"></i><b>6.4</b> Lisäosan käyttö</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="desktop-softat.html"><a href="desktop-softat.html#viitteiden-lisäys"><i class="fa fa-check"></i><b>6.4.1</b> Viitteiden lisäys</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="vpn-yhteys" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> VPN-yhteys<a href="vpn-yhteys.html#vpn-yhteys" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p>Tohtorikoulutettava/muu tiedettä tekevä pääsee lukemaan miltei kaikkia
+keskeisiä lehtiä suoraan, jos yliopisto tarjoaa VPN-yhteyden avulla
+tähän oikeuden. Esittelen seuraavassa luvun mahdollistavan workflow’n,
+jos on Turun yliopistossa opiskelijana.</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol style="list-style-type: decimal">
+<li>Imuroidaan VPN:ää varten client-softa Turun yliopistosta. Tämän
+kanssa saadaan luotua VPN-yhteys. Googleta “utushop” tai paina
+suoraan alle kirjaamaani linkkiä:</li>
+</ol>
+<p><br />
+</p>
+<p><a href="https://utushop.utu.fi/" class="uri">https://utushop.utu.fi/</a></p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Avautuu Utushopin kotisivut. Klikkaa oikeasta ylänurkasta “Kirjaudu
+sisään” (ks. kuva alla).</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn1.png" /><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Klikkaa kohtaan “Kirjaudu Turun yliopiston tunnuksilla” (ks. kuva
+alla). Kirjaudu tunnuksillasi.</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn2.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Avautuu alla näkyvä näkymä, klikkaa kohtaan “IT-tuotteet”.</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn3.png" /><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Skrollaa alas ja klikkaa vasemman marginaalin paneelista kohtaan
+“Ohjelmistot”:</li>
+</ol>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn4.png" /><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Kirjoita sivuston ylälaitaan “vpn” ja paina enteriä:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn6.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Skrollaa alas kunnes näet kohdan AnyConnect VPN, klikkaa siihen:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn7.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="8" style="list-style-type: decimal">
+<li>Skrollaa alas kunnes näet painikkeen “Asennussivusto”, klikkaa
+siihen:</li>
+</ol>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/vpn8.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Seuraavaksi pyydetään taas utu-tunnariasi ja -salasanaasi. Jos ja
+kun näkyy web-selaimen URL-osoitteena vpn.utu.fi-tyyppisen osoite
+(ks. kuva alla), uskallan itse tuohon tunnarini ja salasanani
+kenttään antaa (ks. kuva alla).</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p>Ylhäällä pitäisi näkyä tällaisesti alkava osoite:</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/SSL_VPN_Service.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p>Keskellä ruutua pitäisi näkyä tällainen kenttä:</p>
+<p><img src="vpn-yhteys-pics/SSL_VPN_Service_1.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Nyt pääsee vihdoin painamaan linkkiä (kuva alla) ja saa AnyConnect
+Secure Mobility Clientin imuroitua ja sen jälkeen asennettua
+koneelleen. Jälleen web-selaimessa ylhäällä näkyy vieläkin
+vpn.utu.fi-tyyppinen osoite (kuva alla).</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p>Ylhäällä pitäisi näkyä tällaisesti alkava osoite:</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/AnyConnect_Installation.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p>Keskellä ruutua on linkki josta saa softan imuroitua koneelleen:</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/AnyConnect_Installation_1.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="11" style="list-style-type: decimal">
+<li>Kun olet asentanut kyseisen client-softan koneellesi, käynnistä se.
+Macintosh-tietokoneessa tämä käy nopeiten, kun painat ensin
+Command-nappulan pohjaan, pidät sitä pohjassa ja painat samalla
+välilyöntinappulaa (spacebar). Avautuu ns. spotlight-näkymä, josta
+pääset ohjelman käynnistämään (ks. seuraava kohta alta).
+Vaihtoehtoisesti voit käynnistää spotlight-näkymän painamalla
+ kuvaruudun oikeasta ylänurkasta suurennuslasia, ks. kuva alla:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/Item-0_and_Item-0_and_WiFi_and_UserSwitcher_and_AppleTimeMachineExtra.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="12" style="list-style-type: decimal">
+<li>Avautuu ns. spotlight-näkymä, ja heti kun alat kirjoittaa siihen
+sanaa “Cisco…”, todennäköisesti jo pari kirjainta kirjoitettuasi
+Macintosh tarjoaa kys. softaa käynnistettäväksi. Klikkaa kohtaan
+“Cisco AnyConnect Secure Mobility Client”. Ks. kuva alla:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/Item-0_and_NowPlaying_and_Item-0_and_Item-0_and_Item-0_and_Item-0_and_Item-0_and_Item-0.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="13" style="list-style-type: decimal">
+<li>Client-softa käynnistyy. Kirjoita osoitteeksi client-softan näkymään
+vpn.utu.fi, jos se ei automaattisesti siinä jo näy. Klikkaa
+“Connect”:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/Menubar.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="14" style="list-style-type: decimal">
+<li>Client-softa kysyy vielä utu:n käyttäjätunnuksesi ja salasanasi. Kun
+yllä näkyy, että vpn.utu.fi-osoitteeseen ollaan VPN-yhteys luomassa,
+uskallan antaa oman käyttäjätunnukseni ja salasanani:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/Menubar_and_Cisco_AnyConnect___vpn_utu_fi.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<ol start="15" style="list-style-type: decimal">
+<li>Onnistuneen VPN-yhteyden osoituksena näet seuraavalta näyttävän
+näkymän:</li>
+</ol>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><img src="vpn-yhteys-pics/Menubar_1.png" /><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<hr />
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p>Kun VPN-yhteys on nyt muodostettu, pääset esim. PubMedin kautta
+selaamaan kansainvälisiä artikkeleja. Siitä lisää seuraavassa
+luvussa.</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+<a property="dct:title" rel="cc:attributionURL" href="https://vldesign.kapsi.fi/vpn-ja-viitteet/">Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://www.linkedin.com/in/ville-langen">Ville Langén</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="artikkelien-haku.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

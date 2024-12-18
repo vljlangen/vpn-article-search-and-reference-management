@@ -1,0 +1,404 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# VPN-yhteys
+
+\
+
+\
+
+\
+
+Tohtorikoulutettava/muu tiedettä tekevä pääsee lukemaan miltei kaikkia
+keskeisiä lehtiä suoraan, jos yliopisto tarjoaa VPN-yhteyden avulla
+tähän oikeuden. Esittelen seuraavassa luvun mahdollistavan workflow'n,
+jos on Turun yliopistossa opiskelijana.
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+1.  Imuroidaan VPN:ää varten client-softa Turun yliopistosta. Tämän
+    kanssa saadaan luotua VPN-yhteys. Googleta "utushop" tai paina
+    suoraan alle kirjaamaani linkkiä:
+
+\
+
+<https://utushop.utu.fi/>
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+2.  Avautuu Utushopin kotisivut. Klikkaa oikeasta ylänurkasta "Kirjaudu
+    sisään" (ks. kuva alla).
+
+\
+
+\
+
+![](vpn-yhteys-pics/vpn1.png)\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+3.  Klikkaa kohtaan "Kirjaudu Turun yliopiston tunnuksilla" (ks. kuva
+    alla). Kirjaudu tunnuksillasi.
+
+\
+
+\
+
+![](vpn-yhteys-pics/vpn2.png)\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+4.  Avautuu alla näkyvä näkymä, klikkaa kohtaan "IT-tuotteet".
+
+\
+
+\
+
+![](vpn-yhteys-pics/vpn3.png)\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+5.  Skrollaa alas ja klikkaa vasemman marginaalin paneelista kohtaan
+    "Ohjelmistot":
+
+\
+
+![](vpn-yhteys-pics/vpn4.png)\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+6.  Kirjoita sivuston ylälaitaan "vpn" ja paina enteriä:
+
+\
+
+\
+
+![](vpn-yhteys-pics/vpn6.png)\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+7.  Skrollaa alas kunnes näet kohdan AnyConnect VPN, klikkaa siihen:
+
+\
+
+\
+
+![](vpn-yhteys-pics/vpn7.png)\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+8.  Skrollaa alas kunnes näet painikkeen "Asennussivusto", klikkaa
+    siihen:
+
+\
+
+![](vpn-yhteys-pics/vpn8.png)\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+9.  Seuraavaksi pyydetään taas utu-tunnariasi ja -salasanaasi. Jos ja
+    kun näkyy web-selaimen URL-osoitteena vpn.utu.fi-tyyppisen osoite
+    (ks. kuva alla), uskallan itse tuohon tunnarini ja salasanani
+    kenttään antaa (ks. kuva alla).
+
+\
+
+\
+
+Ylhäällä pitäisi näkyä tällaisesti alkava osoite:
+
+\
+
+![](vpn-yhteys-pics/SSL_VPN_Service.png)\
+
+\
+
+\
+
+Keskellä ruutua pitäisi näkyä tällainen kenttä:
+
+![](vpn-yhteys-pics/SSL_VPN_Service_1.png)\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+10. Nyt pääsee vihdoin painamaan linkkiä (kuva alla) ja saa AnyConnect
+    Secure Mobility Clientin imuroitua ja sen jälkeen asennettua
+    koneelleen. Jälleen web-selaimessa ylhäällä näkyy vieläkin
+    vpn.utu.fi-tyyppinen osoite (kuva alla).
+
+\
+
+\
+
+Ylhäällä pitäisi näkyä tällaisesti alkava osoite:
+
+\
+
+![](vpn-yhteys-pics/AnyConnect_Installation.png)\
+
+\
+
+\
+
+Keskellä ruutua on linkki josta saa softan imuroitua koneelleen:
+
+\
+
+![](vpn-yhteys-pics/AnyConnect_Installation_1.png)\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+11. Kun olet asentanut kyseisen client-softan koneellesi, käynnistä se.
+    Macintosh-tietokoneessa tämä käy nopeiten, kun painat ensin
+    Command-nappulan pohjaan, pidät sitä pohjassa ja painat samalla
+    välilyöntinappulaa (spacebar). Avautuu ns. spotlight-näkymä, josta
+    pääset ohjelman käynnistämään (ks. seuraava kohta alta).
+    Vaihtoehtoisesti voit käynnistää spotlight-näkymän painamalla
+     kuvaruudun oikeasta ylänurkasta suurennuslasia, ks. kuva alla:
+
+\
+
+\
+
+\
+
+![](vpn-yhteys-pics/Item-0_and_Item-0_and_WiFi_and_UserSwitcher_and_AppleTimeMachineExtra.png)\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+12. Avautuu ns. spotlight-näkymä, ja heti kun alat kirjoittaa siihen
+    sanaa "Cisco...", todennäköisesti jo pari kirjainta kirjoitettuasi
+    Macintosh tarjoaa kys. softaa käynnistettäväksi. Klikkaa kohtaan
+    "Cisco AnyConnect Secure Mobility Client". Ks. kuva alla:
+
+\
+
+\
+
+![](vpn-yhteys-pics/Item-0_and_NowPlaying_and_Item-0_and_Item-0_and_Item-0_and_Item-0_and_Item-0_and_Item-0.png)\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+13. Client-softa käynnistyy. Kirjoita osoitteeksi client-softan näkymään
+    vpn.utu.fi, jos se ei automaattisesti siinä jo näy. Klikkaa
+    "Connect":
+
+\
+
+\
+
+\
+
+![](vpn-yhteys-pics/Menubar.png)\
+
+\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+\
+
+14. Client-softa kysyy vielä utu:n käyttäjätunnuksesi ja salasanasi. Kun
+    yllä näkyy, että vpn.utu.fi-osoitteeseen ollaan VPN-yhteys luomassa,
+    uskallan antaa oman käyttäjätunnukseni ja salasanani:
+
+\
+
+\
+
+![](vpn-yhteys-pics/Menubar_and_Cisco_AnyConnect___vpn_utu_fi.png)\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+15. Onnistuneen VPN-yhteyden osoituksena näet seuraavalta näyttävän
+    näkymän:
+
+\
+
+\
+
+\
+
+\
+
+![](vpn-yhteys-pics/Menubar_1.png)\
+
+\
+
+\
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+\
+
+\
+
+Kun VPN-yhteys on nyt muodostettu, pääset esim. PubMedin kautta
+selaamaan kansainvälisiä artikkeleja. Siitä lisää seuraavassa
+luvussa.
+
+\
+
+\
+
+\
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://vldesign.kapsi.fi/vpn-ja-viitteet/">Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://www.linkedin.com/in/ville-langen">Ville Langén</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> 

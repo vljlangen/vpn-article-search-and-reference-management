@@ -1,0 +1,338 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Wordiin viitteet
+
+\
+
+\
+
+\
+
+Esittelen seuraavassa metodin, jolla saat tuotua viitteitä Mendeleyn
+henk.koht. kirjastostasi MS Wordin web-versioon.
+
+\
+
+\
+
+\
+
+-   Googleta "microsoft 365: login" tai paina alla olevaa linkkiä:
+
+\
+
+[www.office.com](http://www.office.com)
+
+\
+
+\
+
+-   Tarvitset Officeen tilin itsellesi, jos sinulle ei sellaista ole ja
+    tahdot jatkaa tämän metodin opiskelua, sinun pitää luoda itsellesi
+    kys. tili. Tämän jälkeen pääset yo. linkistä sisäänkirjautumaan MS
+    Officen web-pohjaisiin toimintoihin.
+
+\
+
+-   Kun olet päässyt sisäänkirjautumaan yo. linkistä, avautuu seuraava
+    näkymä. Klikkaa joko Wordin ikoniin tai suoraan Word-dokumentin
+    luonti-ikoniin:
+
+\
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Home___Microsoft_365_and_hyper100_s_notebook.png)
+
+\
+
+\
+
+\
+
+\
+
+-   Jotta saat Mendeleyn käyttöösi, sinun pitää lisätä itsellesi
+    Mendeleyn "Add-in" käyttöön. 
+
+\
+
+-   Klikkaa Wordin valikosta kohtaan "Insert":
+
+\
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online_1.png)
+
+\
+
+\
+
+\
+
+-   Tämän jälkeen kolmeen pisteeseen:
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online_5.png)
+
+\
+
+\
+
+\
+
+-   Sieltä kohtaan "Add-ins":
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online.png)
+
+\
+
+\
+
+\
+
+-   Sieltä kohtaan "Office Store":
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online_4.png)
+
+\
+
+\
+
+\
+
+-   Kirjoita hakukenttään "Mendeley" ja paina suurennuslasia, klikkaa
+    sitten Mendeley Cite -add-inin vierestä painikkeeseen "Add":
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online_2.png)
+
+\
+
+\
+
+\
+
+-   Jos kys. add-inin tahtoo asentaa, täytyy hyväksyä esitellyt ehdot
+    painamalla "Continue":
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online_6.png)
+
+\
+
+\
+
+\
+
+\
+
+-   Onnistuneen latauksen tuloksena näet seuraavan näkymän ruudun
+    oikealla laidalla ja voit painaa "Get started". Huom! Sain itse
+    tämän Mendeleyn add-inin toimimaan Chrome-selaimessa, mutta en
+    Firefoxilla. Myös Chrome saattaa siten olla hankala, että pyytääkin
+    "Institution"-sisäänkirjausta, mutta siitäkin pääsee ohi, kun avaa
+    Chromen toisessa ikkunassa/tabissa Mendeleyn ja sisäänkirjautuu,
+    tällöin myös Wordin web-versiossa Mendeleyn add-in ymmärtää, että
+    käyttäjä on jo sisäänkirjautunut:
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_1.png)
+
+\
+
+\
+
+\
+
+-   Jos kaikki meni ok, näkyy nyt oikeassa laidassa kirjastosi (tässä
+    sumennettuna):
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_3.png)
+
+\
+
+\
+
+\
+
+-   Nyt jatkossakin Wordin valikosta kohdasta "References" löytyy
+    Mendeley Cite -add-in. Voit kirjoittaa jotakin tekstiä ja kokeilla
+    toimivuutta viemällä kursorin kohtaan, johon tahtoisit tekstin
+    sisäisen viitteen:
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_docx_-_Microsoft_Word_Online_3.png)
+
+\
+
+\
+
+ 
+
+\
+
+-   Valitse tämän jälkeen oikeassa marginaalissa haluamasi artikkeli
+    kirjastostasi ja paina "Insert 1 citation" (voit myös valita useita
+    viitteitä samalla kertaa):
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_6.png)
+
+\
+
+\
+
+\
+
+-   Tämän jälkeen tekstin sisäinen viitteesi on siirtynyt paikalleen:
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_4.png)
+
+\
+
+\
+
+\
+
+-   Voit halutessasi lisätä lähdeluettelon tekstin loppuun. Vie kursori
+    haluamaasi kohtaan (todnäk. tekstin lopussa):
+
+\
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_5.png)
+
+\
+
+\
+
+\
+
+\
+
+\
+
+-   Oikeassa marginaalissa klikkaa kolmeen pisteeseen ja edelleen
+    kohtaan "Insert Bibliography":
+
+\
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_7.png)
+
+\
+
+\
+
+\
+
+\
+
+-   Hyväksy lähdeluettelon lisäys painamalla "Continue":
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online_2.png)
+
+\
+
+\
+
+\
+
+-   Nyt näet tekstiosiosi puolella lähdeluettelon:
+
+\
+
+\
+
+![](wordiin-viitteet-pics/Document_1_docx_-_Microsoft_Word_Online.png)
+
+\
+
+\
+
+\
+
+\
+
+Yllä on kuvattu lyhyesti, miten Wordin web-versiossa saat lisättyä
+viitteitä Mendeleyn henk.koht. kirjastostasi. Mendeleyn desktop-version
+ja samaten Wordin desktop-version käyttö on toki useimmiten
+suoraviivaisempaa, mutta esim. työkoneella yllä kuvattu tapa saattaa
+olla ainoa käytettävissä oleva.
+
+\
+
+
+Pidemmän päälle on suositeltavaa asentaa tietokoneelle Mendeleyn desktop-sovellus ja käyttää sitä yhdessä tietokoneelle asennetun MS Wordin desktop-sovelluksen kanssa. Tämä käyttötapa esitellään seuraavassa luvussa.
+
+\
+
+\
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://vldesign.kapsi.fi/vpn-ja-viitteet/">Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://www.linkedin.com/in/ville-langen">Ville Langén</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> 

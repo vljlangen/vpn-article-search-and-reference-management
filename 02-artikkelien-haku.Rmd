@@ -1,0 +1,314 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Artikkelien haku
+
+\
+
+\
+
+Edellisessä luvussa esittelin, miten utu:n VPN-yhteys muodostetaan.
+
+\
+
+Kun utu:n VPN-yhteys on muodostettu, monenlaisten portaalien kautta
+tarjoutuu suora pääsy tieteellisiin artikkeleihin.
+
+\
+
+Esittelen seuraavassa muutamia näistä.
+
+\
+
+\
+
+\
+
+## PubMed
+
+\
+
+-   Googleta "Pubmed" tai klikkaa seuraavaa linkkiä:
+
+\
+
+<https://pubmed.ncbi.nlm.nih.gov/>
+
+-   Etsi hakusanoilla jokin artikkeli ja klikkaa artikkelia (vrt. kuva
+    alla, artikkelin nimi sumennettu tässä).
+
+\
+
+\
+
+\
+
+![](artikkelien-haku-pics/just_testing_pubmed_-_Search_Results_-_PubMed.png)\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+-   Kun olet klikannut artikkelin nimeä, pääset näkymään jossa näkyy
+    oikeassa marginaalissa "Full Text Links", klikkaa niistä jotakin:
+
+\
+
+\
+
+\
+
+![](artikkelien-haku-pics/esim1.png)\
+
+\
+
+\
+
+\
+
+\
+
+-   VPN-yhteyden ansiosta sinun pitäisi nyt päästä suoraan artikkelin
+    elektroniseen versioon.
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+## Web of Science (WoS)
+
+\
+
+-   Googleta "web of science" (ks. kuva alla) tai klikkaa suoraan
+    seuraavaa linkkiä:
+
+\
+
+<https://www.webofscience.com/>\
+
+\
+
+\
+
+![](artikkelien-haku-pics/web_of_science_-_Google-haku.png)\
+
+\
+
+\
+
+\
+
+-   Avautuu hakunäkymä, jossa pääset valitsemaan ensin "Fieldin" jonka
+    perusteella haetaan - on mahdollista suorittaa haku esim.
+    lehtiartikkelin otsikon tai kirjoittajan nimen perusteella (tai jopa
+    PubMed ID:n perusteella, jos olit jo löytänyt jonkun artikkelin
+    PubMedin kautta ja haluat siitä lisää tietoa WoS:n puolelta):
+
+\
+
+\
+
+![](artikkelien-haku-pics/Document_search_-_Web_of_Science_Core_Collection.png)\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+-   Syötä joku haku ja valitse sitten jokin löytämäsi artikkeli
+    klikkaamalla sitä (alla hakutulos sumennettu):
+
+\
+
+\
+
+![](artikkelien-haku-pics/esim2.png)\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+-   Voit tämän jälkeen nähdä erilaisia Full Text -tyyppisiä linkkejä,
+    joita voit kokeilla päästäksesi lukemaan artikkelia:
+
+\
+
+\
+
+\
+
+![](artikkelien-haku-pics/esim3.png)\
+
+\
+
+\
+
+\
+
+\
+
+## Google Scholar 
+
+\
+
+\
+
+\
+
+-   Joskus olla paikallaan etsiä artikkeleita Google Scholarin kautta.
+    Googleta "google scholar" tai klikkaa alla olevan linkkiin:
+
+\
+
+<https://scholar.google.com/>
+
+\
+
+\
+
+\
+
+-   Jälleen tarjoutuu mahdollisuuksia päästä klikkaamaan artikkelien
+    täysversioihin (hakutulokset sumennettuna):
+
+\
+
+\
+
+\
+
+![](artikkelien-haku-pics/donepezil_qtc_-_Google_Scholar.png)\
+
+\
+
+\
+
+\
+
+## Utu Volter
+
+\
+
+-   Googleta "utu volter" (ks. kuva alla) tai klikkaa suoraan seuraavaa
+    linkkiä:
+
+\
+
+<https://utuvolter.fi/>
+
+\
+
+\
+
+\
+
+\
+
+-   Palveluun pitää vielä kirjautua sisään oikeasta ylänurkasta:
+
+\
+
+\
+
+\
+
+\
+
+![](artikkelien-haku-pics/Volter.png)\
+
+\
+
+\
+
+\
+
+-   Klikkaa seuraavaksi kohtaan "Minulla on utu-tunnus", ja kun
+    web-selaimen URL-osoitteena on utuvolter.fi-alkuinen URL-osoite,
+    uskallan syöttää utu:n tunnukseni ja -salasanani, jolloin pääsee Utu
+    Volterin palveluita käyttämään:
+
+\
+
+\
+
+![](artikkelien-haku-pics/Volter_1.png)\
+
+\
+
+\
+
+\
+
+\
+
+-   Kun etsii jotakin artikkelia hakusanalla, avautuu yleensä näkymä,
+    josta pääsee klikkaamaan joko "Download PDF" tai "Saatavilla
+    verkossa". Kumpikin linkki yleensä toimii, mutta näistä ensimmäinen
+    on suorempi linkki artikkeliin:
+
+\
+
+\
+
+![](artikkelien-haku-pics/Volter_-_donepezil_qtc.png)\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+## Suora googletus
+
+\
+
+-   Joissakin tilanteissa suora googletus on nopein keino löytää
+    etsimänsä artikkeli. Tämä metodi ei kaipaa erikseen esittelyjä.
+
+\
+
+\
+
+\
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://vldesign.kapsi.fi/vpn-ja-viitteet/">Lehtiartikkelien haku utu:n VPN-yhteydellä ja viitteidenhallinta</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://www.linkedin.com/in/ville-langen">Ville Langén</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> 
